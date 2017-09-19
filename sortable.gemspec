@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Amit Kosti"]
   s.email       = 'kostirox@gmail.com'
   s.files       = ["lib/sortable.rb"]
-  s.homepage    = 'http://github.com/ammit/sortable'
+  s.homepage    = 'http://github.com/ammit/Sortable'
   s.license     = 'MIT'
 end
