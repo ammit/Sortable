@@ -4,9 +4,9 @@ module Sortable
 
     included do
       def self.sort(sort='created_at', direction='desc')
-        if sort.present? && direction.present?
-          order(sort + " " + direction)
-        end
+        sort = 'created_at' unless sort.present?
+        direction = 'desc' unless direction.present?
+        order(sort + " " + direction)
       end
     end
   end
