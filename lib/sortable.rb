@@ -1,5 +1,1 @@
-class Sortable
-  def self.hi
-    puts "Hello world!"
-  end
-end
+require 'sortable_table/helpers/action_view_extension'
