@@ -6,7 +6,7 @@ module Sortable
       end
 
       ActiveSupport::on_load(:active_record) do
-        include Sortable::ActionViewExtension
+        include Sortable::ActiveRecordModelExtension
       end
     end
   end
