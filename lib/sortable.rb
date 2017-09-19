@@ -1,1 +1,1 @@
-require 'sortable_table/helpers/action_view_extension'
+require 'sortable/helpers/action_view_extension'
